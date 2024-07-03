@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="style" href="https://fonts.google.com/specimen/Karla">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section id="part1">
+      <h2>Contact Us</h2>
+
+      
+      <form action="process.php" method="post">
+        <label>First Name</label>
+        <br>
+        <input type="text" id="fn">
+        
+      </form>
+
+      <h6 id="error1">This field is required</h6>
+
+      <form action="process.php" method="post">
+        <label>Last Name</label>
+        <br>
+        <input type="text" id="ln">
+        
+      </form>
+
+      <form action="process.php" method="post">
+        <label>Email Address</label>
+        <br>
+        <input type="text" id="email">
+        
+      </form>
+
+      
+      
+
+      
+      
+      
+
+      Query Type
+      General Enquiry
+      Support Request
+      <h6 id="error2">Please select a query type</h6>
+
+      Message
+      
+
+      I consent to being contacted by the team
+      <h6 id="error3">To submit this form, please consent to being contacted</h6>
+
+      Submit
+    </section>
+    
+    <section id="part2">
+      Message Sent!
+      Thanks for completing the form. We'll be in touch soon!
+    </section>
+    
+ 
+  
+  <br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</main> 
+  <script src="main.js"></script>
+</body>
+</html>
